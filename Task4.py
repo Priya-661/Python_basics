@@ -6,4 +6,3 @@ fahrenheit = (celsius * 9/5) + 32
 
 # Printing the equivalent temperature in Fahrenheit
 print("The temperature in Fahrenheit is:", fahrenheit)
-45
