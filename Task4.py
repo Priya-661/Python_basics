@@ -1,9 +1,11 @@
-# Taking input from the user
-celsius = float(input("Enter the temperature in Celsius: "))
+def c_to_f(c):
+    f = (c * 9/5) + 32
+    return f
 
-# Converting Celsius to Fahrenheit
-fahrenheit = (celsius * 9/5) + 32
+def main():
+    c = float(input("Enter the temperature in C: "))
+    f = c_to_f(c)
+    print("The equivalent temperature in F is:", f)
 
-# Printing the equivalent temperature in Fahrenheit
-print("The temperature in Fahrenheit is:", fahrenheit)
-
+if __name__ == "__main__":
+    main()
